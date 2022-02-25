@@ -930,15 +930,16 @@ let initLights = function () {
     // }
 };
 let previous_time = time;
+
 function animate() {
     renderer.info.reset();
     // character && console.log(THREE.Object3D.getWorldQuaternion(character))
-    character && (character_controls.Update(time - previous_time), third_person_camera.Update(time - previous_time));
-
+    let delta = clock.getDelta();
+    character && (character_controls.Update(delta), third_person_camera.Update(delta));
     previous_time = time;
+
     requestAnimationFrame(animate);
 
-    let delta = clock.getDelta();
     time += 1 / 60;
     pyramids.forEach((pyr) => {
         pyr.rotation.y += 0.0007;
