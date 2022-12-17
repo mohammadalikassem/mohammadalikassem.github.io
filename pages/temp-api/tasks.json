@@ -1,3 +1,121 @@
 {
-    "message" : "Hello Mr. HY"
-}
+    "task": {
+      "id": 1,
+      "assignedTo": {
+        "name": "Mhd Ishker",
+        "id": 3
+      },
+      "vehicle": {
+        "id": 6,
+        "plateNb": "O123456"
+      },
+      "scheduledDay": "'2022-12-11T15:35:56.377Z'",
+      "orders": [
+        {
+          "id": 2,
+          "client": {
+            "id": 4,
+            "name": "Hussein Yehya",
+            "phone": "71548942",
+            "branch": {
+              "name": "Garage 1",
+              "phone": "81426371",
+              "contact": {
+                "name": "Jean Pierre Yehya",
+                "phone": "70425365"
+              },
+              "zone": {
+                "id": 2,
+                "name": "North Lebanon"
+              },
+              "subZone": {
+                "id": 30,
+                "name": "Sour"
+              },
+              "location": { "longitude": 1, "latitude": 2, "mapsLink": "" }
+            }
+          },
+  
+          "status": "pending",
+          "scheduledAt": "2022-12-11T15:40:20.172Z",
+          "products": [
+            {
+              "id": 89,
+              "code": "FER-FBX025",
+              "name": "",
+              "description": "Ferrodo brake fluid DOT4 24x250ml",
+              "quantities": [
+                {
+                  "packagingType": "U",
+                  "quantity": 8,
+                  "barcode" : null,
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "client": {
+            "id": 9,
+            "name": "Anis Feghali",
+            "phone": "76891373",
+            "branch": {
+              "name": "Garage 1",
+              "phone": "71666666",
+              "contact": {
+                "name": "Jean Pierre Anis Feghali",
+                "phone": "706666666"
+              },
+              "zone": {
+                "id": 1,
+                "name": "Dawra"
+              },
+              "subZone": {
+                "id": 69,
+                "name": "m3amelten"
+              },
+              "location": { "longitude": 5, "latitude": 7, "mapsLink": "" }
+            }
+          },
+  
+          "status": "pending",
+          "scheduledAt": "2022-12-11T17:40:20.172Z",
+          "products": [
+            {
+              "id": 89,
+              "code": "FER-FBX025",
+              "name": "",
+              "description": "Ferrodo brake fluid DOT4 24x250ml",
+              "quantities": [
+                {
+                  "packagingType": "U",
+                  "quantity": 7,
+                  "barcode" : "123456" 
+                }
+              ]
+            },
+            {
+              "id": 30,
+              "code": "CH-X106",
+              "name": "",
+              "description": "Ferrodo brake fluid DOT4 24x250ml",
+              "quantities": [
+                {
+                  "packagingType": "U",
+                  "quantity": 3,
+                  "barcode" : "564789"
+                },
+                {
+                  "packagingType": "B",
+                  "quantity": 4,
+                  "barcode" : "564789"
+                },
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
