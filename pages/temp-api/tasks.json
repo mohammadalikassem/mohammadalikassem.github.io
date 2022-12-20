@@ -48,7 +48,7 @@
                 {
                   "packagingType": "U",
                   "quantity": 8,
-                  "barcode" : null,
+                  "barcode" : null
                 }
               ]
             }
@@ -110,7 +110,7 @@
                   "packagingType": "B",
                   "quantity": 4,
                   "barcode" : "564789"
-                },
+                }
               ]
             }
           ]
