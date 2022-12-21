@@ -1,0 +1,166 @@
+{
+    "id": 69,
+    "assignedTo": {
+        "id": 56,
+        "name": "Mohammad Ishker"
+    },
+    "vehicle": {
+        "id": 97,
+        "alias": "The princessa",
+        "plateNumber": "G105630"
+    },
+    "scheduledDay": "2022-12-11T",
+    "orders": [
+        {
+            "externalRef": "0003F9I0",
+            "createdBy": "JP",
+            "createdDay": "20/12/2022",
+            "createdTime": "12:02:44",
+            "dueDate": "20/12/2022",
+            "clientCode": "004111.411101",
+            "grossTotal": 2533.2,
+            "discountAmount": 0,
+            "discountPercentage": 0,
+            "taxAmount": 278.65,
+            "netTotal": 2533.2,
+            "client": {
+                "name": "Anis Isper",
+                "address": "Kafarabida 03/554227",
+                "code": "004111.411101",
+                "invoiceClientCode": "004111.411101"
+            },
+            "products": [
+                {
+                    "code": "MO02-V2C-7590-1L",
+                    "name": "MO02-V2C-7590-1L",
+                    "description": "MOTUL GEAR 300 75W90 GL5- 12x1L",
+                    "department": "LUBOIL",
+                    "unitPerBox": 12,
+                    "quantities": [
+                        {
+                            "packagingType": "Box",
+                            "quantity": 3,
+                            "barcode": "123456"
+                        },
+                        {
+                            "packagingType": "Unit",
+                            "quantity": 10,
+                            "barcode": "123456"
+                        }
+                    ]
+                },
+                {
+                    "code": "MO07-2M2T-MIX-1L",
+                    "name": "MO07-2M2T-MIX-1L",
+                    "description": "MOTUL 100 2T- 12x1 Litre",
+                    "department": "LUBOIL",
+                    "unitPerBox": 12,
+                    "quantities": [
+                        {
+                            "packagingType": "Box",
+                            "quantity": 7,
+                            "barcode": "123456"
+                        },
+                        {
+                            "packagingType": "Unit",
+                            "quantity": 8,
+                            "barcode": "123456"
+                        }
+                    ]
+                },
+                {
+                    "code": "ME-NETTOYANT-EGR3",
+                    "name": "ME-NETTOYANT-EGR3",
+                    "description": "Mecatech Traitement EGR Turbo liquide 12x600ml",
+                    "department": "ADDITIFS",
+                    "unitPerBox": 12,
+                    "quantities": [
+                        {
+                            "packagingType": "Box",
+                            "quantity": 3,
+                            "barcode": "123456"
+                        },
+                        {
+                            "packagingType": "Unit",
+                            "quantity": 6,
+                            "barcode": "123456"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "externalRef": "0003F9KS",
+            "createdBy": "JP",
+            "createdDay": "20/12/2022",
+            "createdTime": "12:05:13",
+            "dueDate": "20/12/2022",
+            "clientCode": "000727.411102",
+            "grossTotal": 5525.19,
+            "discountAmount": 0,
+            "discountPercentage": 0,
+            "taxAmount": 607.77,
+            "netTotal": 5525.19,
+            "client": {
+                "name": "Garage Anis Feghali",
+                "address": "Jisr El Bacha Tel:03 719324 01 489672",
+                "code": "000727.411102",
+                "invoiceClientCode": "000727.411102"
+            },
+            "products": [
+                {
+                    "code": "MO02-V2C-7590-1L",
+                    "name": "MO02-V2C-7590-1L",
+                    "description": "MOTUL GEAR 300 75W90 GL5- 12x1L",
+                    "department": "LUBOIL",
+                    "unitPerBox": 12,
+                    "quantities": [
+                        {
+                            "packagingType": "Box",
+                            "quantity": 10,
+                            "barcode": "123456"
+                        },
+                        {
+                            "packagingType": "Unit",
+                            "quantity": 9,
+                            "barcode": "123456"
+                        }
+                    ]
+                },
+                {
+                    "code": "MO02-V4A-DEXR-2L",
+                    "name": "MO02-V4A-DEXR-2L",
+                    "description": "MOTUL DEXRON III 12x2 Litres",
+                    "department": "LUBOIL",
+                    "unitPerBox": 12,
+                    "quantities": [
+                        {
+                            "packagingType": "Box",
+                            "quantity": 3,
+                            "barcode": "123456"
+                        }
+                    ]
+                },
+                {
+                    "code": "ME-NDH",
+                    "name": "ME-NDH",
+                    "description": "Mecatech NDH oil remover cooling 12x500 ml",
+                    "department": "ADDITIFS",
+                    "unitPerBox": 12,
+                    "quantities": [
+                        {
+                            "packagingType": "Box",
+                            "quantity": 9,
+                            "barcode": "123456"
+                        },
+                        {
+                            "packagingType": "Unit",
+                            "quantity": 6,
+                            "barcode": "123456"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
